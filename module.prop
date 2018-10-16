@@ -1,0 +1,7 @@
+id=Custom-DNS
+name=Custom DNS
+version=v1
+versionCode=1
+author=Rom
+description=Using a custom DNS service of your choice systemlessly.
+minMagisk=17000
