@@ -76,9 +76,6 @@ unzip -o "$ZIP" module.prop config.sh 'common/*' -d $INSTALLER >&2
 # Load configurations
 . $INSTALLER/config.sh
 
-ipv4_or_v6
-dns_choice
-
 # Check the installed magisk version
 MIN_VER=`grep_prop minMagisk $INSTALLER/module.prop`
 [ ! -z $MAGISK_VER_CODE -a $MAGISK_VER_CODE -ge $MIN_VER ] || require_new_magisk
@@ -106,6 +103,9 @@ mount_magisk_img
 # Create mod paths
 rm -rf $MODPATH 2>/dev/null
 mkdir -p $MODPATH
+
+ipv4_or_v6
+dns_choice
 
 # Extract files to system. Use your own method if needed
 ui_print "- Extracting module files"
