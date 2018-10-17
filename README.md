@@ -1,22 +1,7 @@
-As John Graham-Cumming announced, CloudFare now offers its own DNS service.
-And surprise of the Boss if we believe his words: your history of browsing isn't saved on their servers !
+# Magisk Module Template
 
-DNS ?? Gne ?? What's this ?
+**Update `README.md` if you want to submit your module to the online repo!** This `README.md` will be shown in a Webview dialog when a user taps your module in Magisk Manager, so make sure to place some information / changelog / notes here.
 
-To make it short: a DNS server makes the correspondence between the IP address of a requested website, and its domain name (forum.xda-developers.com for example).
+If you are not familiar with the Markdown syntax, you can start by experimenting on GitHub's online Markdown editor, which will let you preview before publishing. If you need more help, the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) will be handy.
 
-For the long version a little reading is necessary: https://en.wikipedia.org/wiki/Domain_Name_System
-
-The purpose of this module?
-Forward all mobile data via their servers.
-
-
-Requirements:
-
-    An android device (something tells me if you're here it's because you have one..)
-    Magisk installed (v15+ at least)
-    five minutes of your free-times (and a little piece of your brain (just in case))
-
-
-
-If you trust them, so you can install the module properly, restart and enjoy! 
+For more information about modules and repos, please check the [official documentation](https://topjohnwu.github.io/Magisk/)
